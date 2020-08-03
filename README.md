@@ -36,10 +36,10 @@ make push
 docker run --name keycloak --privileged -d -p 8180:8080 nadahmed/rpi-keycloak
 ```
 
-### To Run on reboot execute the following command
+### Also execute the following command if you want to run the container on reboot
 
 ```docker
-docker update --restart unless-stopped [containerID or containerName]
+docker update --restart unless-stopped keycloak
 ```
 
 ![Keycloak Welcome ScreeShot](https://raw.githubusercontent.com/ruifigueiredo/docker-rpi-keycloak/master/imagens/keycloak_welcomepage.png)
