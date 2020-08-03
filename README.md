@@ -46,7 +46,7 @@ docker update --restart unless-stopped keycloak
 
 ### Login
 
-- Open <http://ADDRESS:8180> in browser
+- Open http://\<raspberry-pi-address>:8180 in browser
 - Login to Administration Console with username and password as `admin` and `admin`
 
 ### Forked from ruifigueiredo/docker-rpi-keycloak
