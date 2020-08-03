@@ -1,5 +1,5 @@
 DOCKER_IMAGE_VERSION=latest
-DOCKER_IMAGE_NAME=ruifigueiredo/rpi-keycloak
+DOCKER_IMAGE_NAME=nadahmed/rpi-keycloak
 DOCKER_IMAGE_TAGNAME=$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_VERSION)
 
 default: build
