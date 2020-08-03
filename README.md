@@ -42,7 +42,7 @@ docker run --name keycloak --privileged -d -p 8180:8080 nadahmed/rpi-keycloak
 docker update --restart unless-stopped keycloak
 ```
 
-![Keycloak Welcome ScreeShot](https://raw.githubusercontent.com/ruifigueiredo/docker-rpi-keycloak/master/imagens/keycloak_welcomepage.png)
+![Keycloak Welcome ScreeShot](https://github.com/nadahmed/docker-rpi-keycloak/blob/master/imagens/keycloak_welcomepage.png?raw=true)
 
 ### Login
 
